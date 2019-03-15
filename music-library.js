@@ -16,7 +16,6 @@ function Track(title, rating, length) {
 }
 
 Playlist.prototype.overallRating = function() {
-  //   return this.tracks;
   let totalTracks = this.tracks.length;
   let totalRating = 0;
   this.tracks.forEach(track => {
